@@ -1,0 +1,43 @@
+.navbarContainer {
+  padding: 15px 40px;
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+  font-size: 24px;
+  cursor: pointer;
+
+}
+.navLists {
+  display: flex;
+  gap: 2rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+.navList {
+  list-style: none;
+}
+.linkWrapper{
+  color: inherit;
+  text-decoration: none;
+}
+.authContainer {
+}
+.authBtn {
+  border: 1px solid #ffffff80;
+  padding: 10px 20px;
+  border-radius: 48px;
+  color: #ffffff;
+  background-color: #0f0f0f;
+  cursor: pointer;
+}
